@@ -27,7 +27,7 @@ else
     else $text = "";
 }
 
-$text = stripslashes(preg_replace('/\s\s+/', ' ', $text));
+/*$text = stripslashes(preg_replace('/\s\s+/', ' ', $text));
 
 if (isset($_FILES['image']['name']))
 {
@@ -76,7 +76,7 @@ if (isset($_FILES['image']['name']))
         imagedestroy($src);
     }
 }
-
+*/
 showProfile($user);
 
 echo <<<_END
