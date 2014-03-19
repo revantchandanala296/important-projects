@@ -2,7 +2,7 @@
 
 <h3>Setting up...</h3>
 
-<?php // Example 21-3: setup.php
+<?php 
 include_once 'functions.php';
 
 createTable('members',
