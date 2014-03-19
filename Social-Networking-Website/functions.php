@@ -1,9 +1,9 @@
 <?php // functions.php
-$dbhost = 'localhost'; // Unlikely to require changing
-$dbname = 'website'; // Modify these...
-$dbuser = 'root'; // ...variables according
-$dbpass = 'revant'; // ...to your installation
-$appname = "Social Networking Website"; // ...and preference
+$dbhost = 'localhost'; 
+$dbname = 'website'; 
+$dbuser = 'root'; 
+$dbpass = 'revant'; 
+$appname = "Social Networking Website"; 
 mysql_connect($dbhost, $dbuser, $dbpass) or die(mysql_error());
 mysql_select_db($dbname) or die(mysql_error());
 function createTable($name, $query)
