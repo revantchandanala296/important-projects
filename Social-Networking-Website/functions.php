@@ -3,7 +3,7 @@ $dbhost = 'localhost'; // Unlikely to require changing
 $dbname = 'website'; // Modify these...
 $dbuser = 'root'; // ...variables according
 $dbpass = 'revant'; // ...to your installation
-$appname = "Robin's Nest"; // ...and preference
+$appname = "Social Networking Website"; // ...and preference
 mysql_connect($dbhost, $dbuser, $dbpass) or die(mysql_error());
 mysql_select_db($dbname) or die(mysql_error());
 function createTable($name, $query)
