@@ -70,11 +70,11 @@ if (isset($_POST['user']))
 echo <<<_END
 <form method='post' action='signup.php'>$error
 <span class='fieldname'>Username</span>
-<input type='text' maxlength='16' name='user' value='$user'
+<input type='text' maxlength='16' name='user' 
     onBlur='checkUser(this)'/><span id='info'></span><br />
 <span class='fieldname'>Password</span>
 <input type='text' maxlength='16' name='pass'
-    value='$pass' /><br />
+    /><br />
 _END;
 ?>
 
