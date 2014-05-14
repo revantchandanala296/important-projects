@@ -1,0 +1,99 @@
+body {
+    background-color:rgb(240,240,240)
+}
+
+#rightContainer{
+    border:1px solid;
+    width:1000px;
+    height:650px;
+    float:right;
+
+}
+
+#textarea{
+    margin-left:8px;
+    margin-top:250px;
+    clear:both;
+
+}
+
+#leftContainer{
+    border:1px solid;
+    width:320px;
+    height:650px;
+
+    float:left
+}
+
+#button{
+    float:right;
+
+}
+
+.popup {
+    position:fixed;
+    float:right;
+    margin-left:500px;
+    margin-top:100px;
+    width: 500px;
+    height: 500px;
+    font-family: verdana;
+    font-size: 13px;
+    padding: 10px;
+    background-color: rgb(240,240,240);
+    border: 2px solid grey;
+    display:none
+}
+
+#logout{
+float:right
+}
+
+#messageDisplay{
+    background-color:rgb(255, 210, 215);
+    width:320px;
+   
+    line-height:5px;
+    position:fixed;
+    }
+
+#heading{
+    margin-top:1px;
+    margin-left:2px;
+}
+
+#date{
+    float:right;
+    margin-top:-40px;
+    margin-right:20px;
+}
+
+#unread{
+ text-color:red;
+}
+
+#insertText{
+position:fixed;
+margin-top:50px;
+padding-left:5px;
+padding-right:5px;
+}
+
+
+#inbox{
+width:320px;
+height:40px;
+margin-top:-15px;
+background-color:#A1A1A1;
+}
+
+#total{
+float:right;
+margin-top:-36px;
+margin-right:10px;
+}
+
+#new{
+margin-top:15px;
+margin-left:200px;
+}
